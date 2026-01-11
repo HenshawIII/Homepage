@@ -24,7 +24,7 @@ export function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8 font-[600]">
+          <div className="hidden lg:flex items-center space-x-8 font-[600] translate-y-1">
             <Link
               href="#services"
               className="text-gray-700 hover:text-[#3038cf] transition-colors font-body"
@@ -52,7 +52,7 @@ export function Header() {
             
           </div>
 
-<div className=" items-center space-x-4 hidden md:flex">
+<div className=" items-center space-x-4 hidden lg:flex">
             <Button href="#contact" variant="primary">
               CONTACT
             </Button>
@@ -60,7 +60,7 @@ export function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2"
+            className="lg:hidden p-2"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -84,7 +84,7 @@ export function Header() {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 space-y-4">
+          <div className="lg:hidden py-4 space-y-4">
             <Link
               href="#services"
               className="block text-gray-700 hover:text-[#3038cf] transition-colors font-body"

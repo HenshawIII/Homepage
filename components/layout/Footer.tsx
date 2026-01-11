@@ -90,7 +90,7 @@ export function Footer() {
 
           {/* Right Column - Navigation Links */}
           <div className="lg:justify-self-end">
-            <nav className="grid grid-cols-3 gap-x-24 gap-y-8">
+            <nav className="grid grid-cols-3 md:gap-x-24 gap-x-8 gap-y-8">
               {/* Row 1 */}
               <Link
                 href="/"

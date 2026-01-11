@@ -17,23 +17,23 @@ export function TestimonialCard({ testimonial }: TestimonialCardProps) {
   return (
     <div className="grid grid-rows-6 grid-cols-6 gap-2 mx-auto max-w-full">
       {/* Image Card */}
-      <div className="relative hidden lg:block w-full lg:min-h-[40vh] col-span-1 row-span-5  rounded-2xl overflow-hidden bg-gray-200">
+      <div className="relative hidden xl:block w-full xl:min-h-[40vh] col-span-1 row-span-5  rounded-2xl overflow-hidden bg-gray-200">
         <Image
           src={testimonial.personImage}
           alt="Team member"
           fill
           className="object-cover object-center"
-          sizes="(max-width: 1024px) 100vw, 50vw"
+          sizes="(max-width: 1280px) 100vw, 50vw"
         />
       </div>
 
       
 
       {/* Testimonial Card */}
-      <div className={`${testimonial.backgroundColor} rounded-2xl col-span-6 lg:col-span-5 flex flex-col justify-between row-span-6 p-6 sm:p-8 space-y-6`}>
+      <div className={`${testimonial.backgroundColor} rounded-2xl col-span-6 xl:col-span-5 flex flex-col justify-between row-span-6 p-6 sm:p-8 space-y-6`}>
         {/* Quote */}
-        <div className="space-y-4 text-center lg:text-left">
-          <div className="flex justify-center lg:justify-start">
+        <div className="space-y-4 text-center xl:text-left">
+          <div className="flex justify-center xl:justify-start">
             <svg
               className="w-8 h-8 text-gray-600"
               fill="currentColor"
@@ -48,8 +48,17 @@ export function TestimonialCard({ testimonial }: TestimonialCardProps) {
         </div>
 
         {/* Author Info */}
-        <div className="flex items-center justify-center lg:justify-start gap-4 pt-4 border-t border-gray-300">
-          
+        <div className="flex items-center justify-center xl:justify-start gap-4 pt-4 border-t border-gray-300">
+          {/* Author Image - Mobile Only */}
+          <div className="relative w-12 h-12 rounded-full overflow-hidden xl:hidden flex-shrink-0">
+            <Image
+              src={testimonial.personImage}
+              alt={testimonial.authorName}
+              fill
+              className="object-cover"
+              sizes="48px"
+            />
+          </div>
           <div>
             <p className="font-bold text-gray-900 font-body">
               {testimonial.authorName}
@@ -62,7 +71,7 @@ export function TestimonialCard({ testimonial }: TestimonialCardProps) {
       </div>
 
       {/* Logo Card */}
-      <div className="bg-gray-100 hidden rounded-xl p-4 row-span-1 col-span-1 lg:flex items-center gap-3">
+      <div className="bg-gray-100 hidden rounded-xl p-4 row-span-1 col-span-1 xl:flex items-center gap-3">
         {testimonial.companyLogo ? (
           <div className="w-8 h-8 relative">
             <Image

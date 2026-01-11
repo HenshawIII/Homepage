@@ -35,7 +35,7 @@ export async function BlogSection() {
           <p className="text-xs sm:text-sm font-semibold text-gray-600 uppercase tracking-wider font-body mb-4">
             BLOG
           </p>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 font-heading mb-4">
+          <h2 className="text-lg lg:text-3xl font-normal text-gray-900 font-heading mb-4">
             Latest Insights
           </h2>
         
@@ -72,7 +72,7 @@ export async function BlogSection() {
                     ))}
                   </div>
                 )}
-                <h3 className="text-xl font-bold text-gray-900 font-heading mb-2 group-hover:text-[#216299] transition-colors line-clamp-2">
+                <h3 className="text-xl font-normal text-gray-900 font-heading mb-2 group-hover:text-[#216299] transition-colors line-clamp-2">
                   {post.title}
                 </h3>
                 {post.publishedAt && (

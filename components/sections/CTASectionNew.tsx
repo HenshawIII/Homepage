@@ -14,7 +14,7 @@ export function CTASectionNew() {
             </p>
 
             {/* Main Question */}
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl max-w-xl font-bold text-gray-900 font-heading leading-tight">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl max-w-xl font-normal text-gray-900 font-heading leading-tight">
               Ready to elevate your business?
             </h2>
 
@@ -38,7 +38,7 @@ export function CTASectionNew() {
           <div className="lg:col-span-1 relative w-full h-full min-h-[300px] lg:min-h-[400px]">
             <div className="relative w-full h-full rounded-2xl overflow-hidden">
               <Image
-                src="/cta.avif" // Replace with actual image path
+                src="/ladies.png" // Replace with actual image path
                 alt="Team collaboration"
                 fill
                 className="object-cover object-center"

@@ -13,20 +13,20 @@ export function PortfolioSection() {
 
   const portfolioItems: PortfolioItem[] = [
     {
-      title: "OPERATIONAL EXCELLENCE",
-      description: "Implemented streamlined processes that increased efficiency by 30%.",
+      title: "E-COMMERCE PLATFORM",
+      description: "Built a modern e-commerce website with integrated payment systems, inventory management, and customer dashboards that increased online sales by 45% and streamlined operations.",
     },
     {
-      title: "CONSTRUCTION ADVISORY",
-      description: "Provided strategic consulting that reduced project timelines by 25% and improved cost management.",
+      title: "MOBILE APPLICATION",
+      description: "Developed a cross-platform mobile app with financial services integration, real-time synchronization, offline capabilities, and seamless user experience that reached 50,000+ active users within the first year.",
     },
     {
-      title: "HOSPITALITY SOLUTIONS",
-      description: "Developed comprehensive operational strategies that enhanced guest satisfaction scores by 40%.",
+      title: "WORKFLOW AUTOMATION",
+      description: "Designed and implemented automation systems that integrated multiple business tools, reducing manual processing time by 60% and eliminating human error in critical workflows.",
     },
     {
-      title: "FIREFIGHTING COMMUNICATION",
-      description: "Designed and implemented communication systems that improved response times and coordination efficiency.",
+      title: "PRODUCT STRATEGY",
+      description: "Led product management initiatives from concept to launch, defining roadmaps, prioritizing features, and coordinating cross-functional teams to deliver successful digital products on time and within budget.",
     },
   ];
 
@@ -120,7 +120,7 @@ export function PortfolioSection() {
           <div className="relative w-full flex justify-center lg:justify-end h-full min-h-[200px] lg:min-h-[400px]">
             <div className="relative lg:w-[80%] w-full   h-full rounded-2xl overflow-hidden bg-gray-200">
               <Image
-                src="/potf.avif" // Replace with actual image path
+                src="/hommies.png" // Replace with actual image path
                 alt="Portfolio showcase"
                 fill
                 className="object-cover object-center"

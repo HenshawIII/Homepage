@@ -3,12 +3,12 @@ import { VantaGlobe } from "./VantaGlobe";
 
 export function HeroSection() {
   return (
-    <section className="relative mt-6 bg-[#faf9f9] py-12 sm:py-12 mb-4 lg:py-12 w-[95%] mx-auto rounded-xl">
+    <section className="relative mt-6 md:bg-gradient-to-tr bg-gradient-to-tl from-[#faf9f9] via-[#faf9f9] to-blue-50 py-12 sm:py-12 mb-4 lg:py-12 w-[95%] mx-auto rounded-xl">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left Column - Text Content */}
           <div className="space-y-4">
-            <h1 className="text-3xl sm:text-3xl lg:text-5xl max-w-2xl font-semibold text-gray-900 font-heading leading-tight">
+            <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl  font-normal text-gray-900 font-heading leading-tight max-w-xl">
               Building Intelligent Businesses for a Global World
             </h1>
             

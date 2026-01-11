@@ -31,8 +31,8 @@ export function ServicesSection() {
       title: "Digital Presence & Media",
       description:
         "We help businesses present themselves professionally on a global stage. Through strategic media, storytelling, and high-quality digital campaigns, we ensure your brand looks credible, confident, and competitive — across any platform.",
-      image: "/creative.avif", // Replace with actual image path
-      backgroundColor: "bg-[#fef9e7]", // Light blue background
+      image: "/createve.svg", // Replace with actual image path
+      backgroundColor: "bg-[#eaf1fe]", // Light blue background
       includes: [
         "Media strategy & creative direction",
         "High-end digital advertisements",
@@ -59,6 +59,16 @@ export function ServicesSection() {
 
   return (
     <section id="services" className="relative py-8 w-[95%] mx-auto rounded-t-xl  bg-[#faf9f9]">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 mb-8 lg:mb-12">
+        {/* Sub-heading */}
+        <p className="text-xs sm:text-sm font-semibold text-gray-600 uppercase tracking-wider font-body mb-4">
+          OUR SERVICES
+        </p>
+        {/* Main Heading */}
+        <h2 className="text-lg lg:text-3xl font-normal text-gray-900 font-heading max-w-xl">
+          Digital solutions to build and scale your business
+        </h2>
+      </div>
       {/* Container for sticky scroll effect */}
       <div className="relative">
         {services.map((service, index) => {
@@ -66,13 +76,13 @@ export function ServicesSection() {
           return (
             <div
               key={index}
-              className={` ${service.backgroundColor} sticky top-24 w-[95%] mx-auto rounded-2xl mb-8 overflow-hidden transition-all duration-300`}
+              className={` ${service.backgroundColor} sticky top-24 w-[95%] mx-auto rounded-2xl mb-12 sm:mb-8 pb-12 sm:pb-8 lg:pb-0 overflow-hidden transition-all duration-300`}
               style={{ zIndex: index + 1 }}
             >
-              <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 lg:py-12">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+              <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-8 lg:py-12">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center">
                   {/* Image Column - First (left on desktop) */}
-                  <div className="relative w-full h-full min-h-[300px] lg:min-h-[400px] order-1">
+                  <div className="relative w-full h-[200px] sm:h-[250px] lg:h-full lg:min-h-[400px] order-1">
                     <div className="relative w-full h-full rounded-2xl overflow-hidden bg-gray-200">
                       <Image
                         src={service.image}
@@ -85,9 +95,9 @@ export function ServicesSection() {
                   </div>
 
                   {/* Text Content Column - Second (right on desktop) */}
-                  <div className="flex flex-col space-y-6 order-2 h-full">
-                    <div className="space-y-6">
-                      <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 font-heading leading-tight">
+                  <div className="flex flex-col space-y-4 sm:space-y-6 order-2 h-full">
+                    <div className="space-y-4 sm:space-y-6">
+                      <h2 className="text-lg lg:text-3xl font-normal text-gray-900 font-heading leading-tight">
                         {service.title}
                       </h2>
                       <p className="text-base sm:text-lg text-gray-700 font-body leading-relaxed">

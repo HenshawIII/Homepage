@@ -14,7 +14,7 @@ interface VantaGlobeProps {
   fallbackImage?: string;
 }
 
-export function VantaGlobe({ fallbackImage = "/glob.png" }: VantaGlobeProps) {
+export function VantaGlobe({ fallbackImage = "/globb.svg" }: VantaGlobeProps) {
   const vantaRef = useRef<HTMLDivElement>(null);
   const vantaEffect = useRef<any>(null);
   const hasLoadedRef = useRef(false);

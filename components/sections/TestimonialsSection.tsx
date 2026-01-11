@@ -39,7 +39,7 @@ export function TestimonialsSection() {
       personImage: "/testP.avif",
       companyLogo: "/lgo.svg",
       companyName: "TechFlow",
-      backgroundColor: "bg-[#fef9e7]", // Light yellow - matching Digital Presence & Media
+      backgroundColor: "bg-[#eaf1fe]", // Light yellow - matching Digital Presence & Media
     },
     // {
     //   quote:
@@ -78,35 +78,35 @@ export function TestimonialsSection() {
     <section id="testimonials" className="py-8 sm:py-12 lg:py-16 bg-[#faf9f9] rounded-b-xl w-[95%] mx-auto">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* 8-column grid system */}
-        <div className="grid grid-cols-1 lg:grid-cols-8 gap-8 lg:gap-12 items-center justify-center">
+        <div className="grid grid-cols-1 xl:grid-cols-8 gap-8 xl:gap-12 items-center justify-center">
           {/* Left Column - 2 columns */}
-          <div className="lg:col-span-2 space-y-8">
+          <div className="xl:col-span-2 space-y-8">
             {/* Sub-heading */}
-            <p className="text-xs sm:text-sm font-semibold text-gray-600 uppercase tracking-wider font-body text-center lg:text-left">
+            <p className="text-xs sm:text-sm font-semibold text-gray-600 uppercase tracking-wider font-body text-center xl:text-left">
               TESTIMONIALS
             </p>
 
             {/* Main Title */}
-            <h2 className="text-xl sm:text-3xl lg:text-4xl font-bold text-gray-900 font-heading leading-tight text-center lg:text-left">
+            <h2 className="text-lg xl:text-3xl font-normal text-gray-900 font-heading leading-tight text-center xl:text-left">
               What they say
               <br />
               about Us?
             </h2>
 
             {/* Description */}
-            <p className="text-base sm:text-lg text-gray-700 font-body leading-relaxed max-w-lg text-center lg:text-left mx-auto lg:mx-0">
+            <p className="text-base sm:text-lg text-gray-700 font-body leading-relaxed max-w-lg text-center xl:text-left mx-auto xl:mx-0">
               Here's what they shared about their experience working with our team.
             </p>
 
             {/* About Us Button */}
-            <div className="flex justify-center lg:justify-start">
+            <div className="flex justify-center xl:justify-start">
               <Button variant="primary" href="/">
                 ABOUT US
               </Button>
             </div>
 
             {/* Navigation Arrows - Desktop only */}
-            <div className="hidden lg:flex items-center gap-3 pt-4">
+            <div className="hidden xl:flex items-center gap-3 pt-4">
               <button
                 onClick={handlePrevious}
                 className="w-10 h-10 rounded-lg bg-gray-100 hover:bg-gray-200 flex items-center justify-center transition-colors"
@@ -149,11 +149,11 @@ export function TestimonialsSection() {
           </div>
 
           {/* Right Column - 6 columns */}
-          <div className="lg:col-span-6">
+          <div className="xl:col-span-6">
             <TestimonialCard testimonial={currentTestimonial} />
             
             {/* Navigation Arrows - Mobile only */}
-            <div className="flex lg:hidden items-center justify-center gap-3 pt-6">
+            <div className="flex xl:hidden items-center justify-center gap-3 pt-6">
               <button
                 onClick={handlePrevious}
                 className="w-10 h-10 rounded-lg bg-gray-100 hover:bg-gray-200 flex items-center justify-center transition-colors"
