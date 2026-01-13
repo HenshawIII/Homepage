@@ -107,7 +107,7 @@ export function Header() {
               ABOUT US
             </Link>
             <Link
-              href="#blog"
+              href="/blog"
               className="block text-gray-700 hover:text-[#3038cf] transition-colors font-body"
               onClick={() => setIsMenuOpen(false)}
             >

@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { urlFor } from '@/sanity/lib/image'
 import { CTASectionNew } from '@/components/sections/CTASectionNew'
+import { NewsletterSubscription } from '@/components/ui/NewsletterSubscription'
 
 interface Post {
   _id: string
@@ -24,7 +25,7 @@ export default async function BlogPage() {
 
   return (
     <div className="min-h-screen bg-[#f0f1f1] ">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20 w-[95%] mx-auto rounded-xl mb-6">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20 w-[95%] rounded-xl mb-6">
         <div className="mb-12">
           <h1 className="text-lg lg:text-3xl font-normal text-gray-900 font-heading mb-4">
             Blog
@@ -70,7 +71,7 @@ export default async function BlogPage() {
                       ))}
                     </div>
                   )}
-                  <h2 className="text-xl font-bold text-gray-900 font-heading mb-2 group-hover:text-[#216299] transition-colors">
+                  <h2 className="text-xl font-bold text-gray-900 font-heading mb-2 group-hover:text-[#3038cf] transition-colors">
                     {post.title}
                   </h2>
                   {post.publishedAt && (
@@ -92,7 +93,13 @@ export default async function BlogPage() {
             ))}
           </div>
         )}
+
+        {/* Newsletter Subscription */}
+        
       </div>
+      <div className="mt-12 lg:mt-16 mb-6">
+          <NewsletterSubscription />
+        </div>
       <CTASectionNew />
     </div>
   )

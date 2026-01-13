@@ -65,7 +65,7 @@ export function ServicesSection() {
           OUR SERVICES
         </p>
         {/* Main Heading */}
-        <h2 className="text-lg lg:text-3xl font-normal text-gray-900 font-heading max-w-xl">
+        <h2 className="text-lg lg:text-3xl font-normal text-gray-900 text-center md:text-left  font-heading max-w-xl">
           Digital solutions to build and scale your business
         </h2>
       </div>
@@ -82,7 +82,7 @@ export function ServicesSection() {
               <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-8 lg:py-12">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center">
                   {/* Image Column - First (left on desktop) */}
-                  <div className="relative w-full h-[200px] sm:h-[250px] lg:h-full lg:min-h-[400px] order-1">
+                  <div className="relative w-full h-[200px] sm:h-[250px] lg:h-full lg:min-h-[400px] order-2 md:order-1">
                     <div className="relative w-full h-full rounded-2xl overflow-hidden bg-gray-200">
                       <Image
                         src={service.image}
@@ -95,7 +95,7 @@ export function ServicesSection() {
                   </div>
 
                   {/* Text Content Column - Second (right on desktop) */}
-                  <div className="flex flex-col space-y-4 sm:space-y-6 order-2 h-full">
+                  <div className="flex flex-col space-y-4 sm:space-y-6 order-1 md:order-2 h-full">
                     <div className="space-y-4 sm:space-y-6">
                       <h2 className="text-lg lg:text-3xl font-normal text-gray-900 font-heading leading-tight">
                         {service.title}

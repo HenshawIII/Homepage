@@ -5,6 +5,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { urlFor } from '@/sanity/lib/image'
 import { notFound } from 'next/navigation'
+import { NewsletterSubscription } from '@/components/ui/NewsletterSubscription'
+import { CTASectionNew } from '@/components/sections/CTASectionNew'
 
 interface Post {
   _id: string
@@ -134,8 +136,16 @@ export default async function BlogPostPage({
               <PortableText content={post.body} />
             </div>
           )}
+
+          
         </article>
+        
       </div>
+      {/* Newsletter Subscription */}
+      <div className="mt-12 lg:mt-16 mb-6">
+            <NewsletterSubscription />
+          </div>
+      <CTASectionNew />
     </div>
   )
 }

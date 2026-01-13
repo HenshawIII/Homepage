@@ -3,6 +3,8 @@ import { postsQuery } from '@/sanity/lib/queries'
 import Image from 'next/image'
 import Link from 'next/link'
 import { urlFor } from '@/sanity/lib/image'
+import { Button } from '@/components/ui/Button'
+import { NewsletterSubscription } from '@/components/ui/NewsletterSubscription'
 
 interface Post {
   _id: string
@@ -72,7 +74,7 @@ export async function BlogSection() {
                     ))}
                   </div>
                 )}
-                <h3 className="text-xl font-normal text-gray-900 font-heading mb-2 group-hover:text-[#216299] transition-colors line-clamp-2">
+                <h3 className="text-xl font-normal text-gray-900 font-heading mb-2 group-hover:text-[#3038cf] transition-colors line-clamp-2">
                   {post.title}
                 </h3>
                 {post.publishedAt && (
@@ -91,28 +93,18 @@ export async function BlogSection() {
 
         {posts.length > 3 && (
           <div className="mt-12 text-center">
-            <Link
-              href="/blog"
-              className="inline-flex items-center gap-2 text-[#216299] hover:text-[#1a4d7a] font-semibold font-body transition-colors"
-            >
+            <Button href="/blog" variant="secondary">
               View All Posts
-              <svg
-                className="w-5 h-5"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </Link>
+            </Button>
           </div>
         )}
+
+        
       </div>
+      {/* Newsletter Subscription */}
+      <div className="mt-12 lg:mt-16">
+          <NewsletterSubscription />
+        </div>
     </section>
   )
 }
