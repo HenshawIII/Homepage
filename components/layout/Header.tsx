@@ -38,7 +38,7 @@ export function Header() {
               CASE STUDIES
             </Link>
             <Link
-              href="#about"
+              href="/about"
               className="text-gray-700 hover:text-[#3038cf] transition-colors font-body"
             >
               ABOUT US
@@ -100,7 +100,7 @@ export function Header() {
               CASE STUDIES
             </Link>
             <Link
-              href="#about"
+              href="/about"
               className="block text-gray-700 hover:text-[#3038cf] transition-colors font-body"
               onClick={() => setIsMenuOpen(false)}
             >

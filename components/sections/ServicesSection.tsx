@@ -76,7 +76,7 @@ export function ServicesSection() {
           return (
             <div
               key={index}
-              className={` ${service.backgroundColor} sticky top-24 w-[95%] mx-auto rounded-2xl mb-12 sm:mb-8 pb-12 sm:pb-8 lg:pb-0 overflow-hidden transition-all duration-300`}
+              className={` ${service.backgroundColor} sticky top-24 w-[95%] mx-auto rounded-2xl mb-12 sm:mb-8 pb-12 sm:pb-8 lg:pb-0 pt-8 md:pt-0 overflow-hidden transition-all duration-300`}
               style={{ zIndex: index + 1 }}
             >
               <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-8 lg:py-12">

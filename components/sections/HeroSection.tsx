@@ -3,7 +3,7 @@ import { VantaGlobe } from "./VantaGlobe";
 
 export function HeroSection() {
   return (
-    <section className="relative mt-6 md:bg-gradient-to-tr bg-gradient-to-tl from-[#faf9f9] via-[#faf9f9] to-blue-50 py-12 sm:py-12 mb-4 lg:py-12 w-[95%] mx-auto rounded-xl">
+    <section className="relative mt-6 md:bg-gradient-to-bl bg-gradient-to-tl from-[#faf9f9] via-[#faf9f9] to-blue-50 py-12 sm:py-12 mb-4 lg:py-12 w-[95%] mx-auto rounded-xl">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left Column - Text Content */}
