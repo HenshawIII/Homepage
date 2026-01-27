@@ -6,32 +6,45 @@ import Image from "next/image";
 interface PortfolioItem {
   title: string;
   description: string;
+  image: string;
 }
 
 export function PortfolioSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
+  const [displayedImageIndex, setDisplayedImageIndex] = useState<number>(0);
 
   const portfolioItems: PortfolioItem[] = [
     {
       title: "E-COMMERCE PLATFORM",
       description: "Built a modern e-commerce website with integrated payment systems, inventory management, and customer dashboards that increased online sales by 45% and streamlined operations.",
+      image: "/expert.png",
     },
     {
       title: "MOBILE APPLICATION",
       description: "Developed a cross-platform mobile app with financial services integration, real-time synchronization, offline capabilities, and seamless user experience that reached 50,000+ active users within the first year.",
+      image: "/expert.png",
     },
     {
       title: "WORKFLOW AUTOMATION",
       description: "Designed and implemented automation systems that integrated multiple business tools, reducing manual processing time by 60% and eliminating human error in critical workflows.",
+      image: "/expert.png",
     },
     {
       title: "PRODUCT STRATEGY",
       description: "Led product management initiatives from concept to launch, defining roadmaps, prioritizing features, and coordinating cross-functional teams to deliver successful digital products on time and within budget.",
+      image: "/expert.png",
     },
   ];
 
   const toggleItem = (index: number) => {
-    setOpenIndex(openIndex === index ? null : index);
+    if (openIndex === index) {
+      // Closing the item: keep displayedImageIndex unchanged
+      setOpenIndex(null);
+    } else {
+      // Opening a new item: update both openIndex and displayedImageIndex
+      setOpenIndex(index);
+      setDisplayedImageIndex(index);
+    }
   };
 
   return (
@@ -118,14 +131,23 @@ export function PortfolioSection() {
 
           {/* Right Column - Image */}
           <div className="relative w-full flex justify-center lg:justify-end h-full min-h-[200px] lg:min-h-[400px]">
-            <div className="relative lg:w-[80%] w-full   h-full rounded-2xl overflow-hidden bg-gray-200">
-              <Image
-                src="/hommies.png" // Replace with actual image path
-                alt="Portfolio showcase"
-                fill
-                className="object-cover object-center"
-                sizes="(max-width: 1024px) 100vw, 50vw"
-              />
+            <div className="relative lg:w-[80%] w-full h-full rounded-2xl overflow-hidden bg-gray-200">
+              {portfolioItems.map((item, index) => (
+                <div
+                  key={index}
+                  className={`absolute inset-0 transition-opacity duration-500 ease-in-out ${
+                    displayedImageIndex === index ? 'opacity-100' : 'opacity-0'
+                  }`}
+                >
+                  <Image
+                    src={item.image}
+                    alt={item.title}
+                    fill
+                    className="object-cover object-center"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                  />
+                </div>
+              ))}
             </div>
           </div>
         </div>

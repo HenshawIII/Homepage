@@ -99,7 +99,7 @@ export function Footer() {
                 HOME
               </Link>
               <Link
-                href="#services"
+                href="/services"
                 className="text-sm sm:text-base font-body text-gray-300 hover:text-white transition-colors"
               >
                 SERVICES

@@ -103,7 +103,7 @@ export default function AboutPage() {
     {
       name: "Henshaw Immanuel",
       role: "CTO",
-      image: "/cTn.png", // Placeholder - replace with actual image
+      image: "/cTnnn.png", // Placeholder - replace with actual image
       socialLinks: [
         { platform: "LinkedIn", url: "#", icon: (
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -336,20 +336,20 @@ export default function AboutPage() {
       {/* Intro Section */}
       <section className="py-12 sm:py-16  bg-gradient-to-tr from-[#faf9f9] via-[#faf9f9] to-blue-50 w-[95%] mx-auto rounded-xl mb-6 mt-6">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto space-y-6">
-            <p className="text-xs sm:text-sm font-semibold text-gray-600 uppercase tracking-wider font-body">
+          <div className="">
+            <p className="text-xs sm:text-sm font-semibold mb-6 text-gray-600 uppercase tracking-wider font-body">
               ABOUT HIC TECH
             </p>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-normal text-gray-900 font-heading leading-tight">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-normal mb-6 text-gray-900 font-heading leading-tight">
               WHY WE EXIST
             </h1>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center ">
               <p className="text-lg sm:text-xl text-gray-700 font-body leading-relaxed text-left ">
                 Across Africa, talented entrepreneurs and growing businesses are building powerful ideas — yet many struggle to access the technology needed to scale. Complex systems, disconnected tools, and high costs often stand in the way of progress. Branding, software, automation, and media are treated as separate efforts, leading to inefficiency and slow growth.
               </p>
               <div className="relative w-full h-[300px] sm:h-[400px] lg:h-[500px] flex justify-center">
                 <Image
-                  src="/globb.svg"
+                  src="/TA.png"
                   alt="Globe illustration"
                   fill
                   className="object-contain"
@@ -357,24 +357,25 @@ export default function AboutPage() {
                 />
               </div>
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center max-w-7xl mx-auto">
-              <div className="relative w-full h-[300px] sm:h-[400px] lg:h-[500px] flex justify-center order-2 lg:order-1">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center ">
+              <div className="relative w-full h-[300px] sm:h-[400px] lg:h-[400px] flex lg:justify-start justify-center order-2 lg:order-1">
                 <Image
-                  src="/purp.svg"
+                  src="/purpp.svg"
                   alt="Icon illustration"
-                  fill
-                  className="object-contain"
+                  width={400}
+                  height={400}
+                  className="object-contain w-[300px] h-[300px] xl:w-[400px] xl:h-[400px]"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>
-              <p className="text-lg sm:text-xl text-gray-700 font-body leading-relaxed text-left  order-1 lg:order-2">
+              <p className="text-lg sm:text-xl text-gray-700 font-body leading-relaxed text-left lg:-translate-y-4 xl:translate-y-0 order-1 lg:order-2">
                 HIC Tech was founded to solve this.
 
                 We exist to bring advanced technology closer to home — simplifying innovation and making it accessible to businesses of all sizes. Our role is to bridge the gap between ideas and execution, between local ambition and global opportunity.
               </p>
             </div>
             {/* Statistics Cards */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 pt-8 lg:pt-12">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 pt-8 lg:pt-12 mt-8 md:mt-0 lg:mt-8 xl:mt-16 mx-auto lg:max-w-7xl md:translate-x-8 xl:translate-x-16">
               {/* Card 1 */}
               <div className="bg-transparent rounded-2xl p-6 sm:p-8 border-b border-gray-200 md:border-b-0 md:border-r text-center md:text-left">
                 <p className="text-xs sm:text-sm font-semibold text-gray-600 uppercase tracking-wider mb-8 font-body">
@@ -391,7 +392,7 @@ export default function AboutPage() {
                   YEARS OF EXPERIENCE
                 </p>
                 <p className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 font-heading">
-                  10+
+                  5+
                 </p>
               </div>
 
@@ -412,7 +413,7 @@ export default function AboutPage() {
       {/* Mission & Approach Section */}
       <section className="py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-[#faf9f9] via-[#faf9f9] to-blue-50 w-[95%] mx-auto rounded-xl mb-6">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+          <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Left Column - Text Content */}
             <div className="space-y-8">
               {/* Sub-heading */}
@@ -431,7 +432,7 @@ export default function AboutPage() {
               </p>
 
               {/* Four Feature Grid */}
-              <div className="grid grid-cols-2 gap-6 pt-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
                 <div className="border-b border-gray-200 pb-6">
                   <h3 className="text-lg font-normal text-gray-900 font-heading mb-2">
                     Start with Clarity

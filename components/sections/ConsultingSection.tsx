@@ -113,7 +113,7 @@ export function ConsultingSection() {
               YEARS OF COMBINED EXPERIENCE
             </p>
             <p className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 font-heading">
-              10+
+              5+
             </p>
           </div>
 
