@@ -375,7 +375,7 @@ export default function AboutPage() {
               </p>
             </div>
             {/* Statistics Cards */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 pt-8 lg:pt-12 mt-8 md:mt-0 lg:mt-8 xl:mt-16 mx-auto lg:max-w-7xl md:translate-x-8 xl:translate-x-16">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 pt-8 lg:pt-12 mt-0 md:mt-0 lg:mt-8 xl:mt-16 mx-auto lg:max-w-7xl md:translate-x-8 xl:translate-x-16">
               {/* Card 1 */}
               <div className="bg-transparent rounded-2xl p-6 sm:p-8 border-b border-gray-200 md:border-b-0 md:border-r text-center md:text-left">
                 <p className="text-xs sm:text-sm font-semibold text-gray-600 uppercase tracking-wider mb-8 font-body">
@@ -427,7 +427,7 @@ export default function AboutPage() {
               </h2>
 
               {/* Descriptive Paragraph */}
-              <p className="text-base sm:text-lg text-gray-700 font-body leading-relaxed">
+              <p className="text-base sm:text-lg text-gray-600 font-body leading-relaxed">
                 We're dedicated to empowering African businesses with intelligent systems, strategic insight, and modern digital tools. We believe in clarity, collaboration, and delivering solutions that enable sustainable growth.
               </p>
 
@@ -488,7 +488,7 @@ export default function AboutPage() {
                 }}
               >
                 <Image
-                  src="/expert.png"
+                  src="/story.png"
                   alt="Team collaboration"
                   fill
                   className="object-cover object-center"
@@ -660,7 +660,7 @@ export default function AboutPage() {
       </section>
 
       {/* Team Members Section */}
-      <section className="py-12 sm:py-16 lg:py-20 bg-white w-[95%] mx-auto rounded-xl mb-6">
+      {/* <section className="py-12 sm:py-16 lg:py-20 bg-white w-[95%] mx-auto rounded-xl mb-6">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12 lg:mb-16 text-center">
             <div className="inline-flex items-center gap-2 mb-4">
@@ -678,7 +678,7 @@ export default function AboutPage() {
 
           <TeamMembersCarousel teamMembers={teamMembers} />
         </div>
-      </section>
+      </section> */}
 
       
       <CTASectionNew />

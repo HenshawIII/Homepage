@@ -3,11 +3,14 @@ import { Button } from "@/components/ui/Button";
 
 export function ExpertiseSection() {
   return (
-    <section className="relative bg-gradient-to-bl from-[#faf9f9] to-blue-50 py-12 sm:py-16 lg:py-10 w-[95%] mx-auto rounded-xl mb-6">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="relative bg-gradient-to-bl from-[#faf9f9] to-blue-50 py-12 sm:py-16 lg:py-10 w-[95%] mx-auto rounded-xl mb-6 overflow-hidden">
+     <div className="absolute -bottom-30 -left-[5%] -z-0 w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] lg:w-[500px] lg:h-[400px]">
+      <Image src={'/shape6.svg'} alt="rand" fill className="object-contain opacity-[0.8]"/>
+     </div>
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
           {/* Left Column - Text Content */}
-          <div className="mt-12">
+          <div className="mt-12 relative z-10">
             {/* Sub-heading */}
             <p className="text-xs sm:text-sm font-semibold text-gray-600 uppercase tracking-wider font-body">
               HIC TECH EXPERTISE
@@ -32,7 +35,7 @@ From laying the right foundation, to building intelligent systems, to positionin
 
             {/* Learn More Button */}
             <div className="pt-6">
-              <Button href="#services" variant="primary" className="w-full sm:w-auto">
+              <Button href="/services" variant="primary" className="w-full sm:w-auto">
                 Learn More
               </Button>
             </div>

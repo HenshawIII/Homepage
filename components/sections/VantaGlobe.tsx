@@ -43,14 +43,14 @@ export function VantaGlobe({ fallbackImage = "/globb.svg" }: VantaGlobeProps) {
       try {
         // Load Three.js first
         if (!window.THREE) {
-          await loadScript("https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js");
+          await loadScript("/js/three.min.js");
           // Wait a bit for Three.js to fully initialize
           await new Promise(resolve => setTimeout(resolve, 100));
         }
 
         // Load Vanta.js
         if (!window.VANTA) {
-          await loadScript("https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js");
+          await loadScript("/js/vanta.globe.min.js");
           // Wait for Vanta to fully initialize
           await new Promise(resolve => setTimeout(resolve, 200));
         }

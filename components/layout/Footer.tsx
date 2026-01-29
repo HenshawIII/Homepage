@@ -5,8 +5,9 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-black text-gray-300 py-12 sm:py-16 lg:py-20 w-[95%] mx-auto rounded-xl min-h-[90vh] flex flex-col mb-6">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex-1 flex flex-col">
+    <footer className="relative bg-black text-gray-300 py-12 sm:py-16 lg:py-20 w-[95%] mx-auto rounded-xl min-h-[90vh] flex flex-col mb-6 overflow-hidden">
+      
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex-1 flex flex-col relative z-10">
         
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-12 mb-12">
@@ -105,7 +106,7 @@ export function Footer() {
                 SERVICES
               </Link>
               <Link
-                href="#contact"
+                href="/contact"
                 className="text-sm sm:text-base font-body text-gray-300 hover:text-white transition-colors"
               >
                 CONTACT
@@ -125,10 +126,10 @@ export function Footer() {
                 BLOG
               </Link>
               <Link
-                href="#case-studies"
+                href="/portfolio"
                 className="text-sm sm:text-base font-body text-gray-300 hover:text-white transition-colors"
               >
-                CASE STUDIES
+                PORTFOLIO
               </Link>
             </nav>
           </div>

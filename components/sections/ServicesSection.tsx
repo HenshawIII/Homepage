@@ -9,6 +9,7 @@ interface ServiceCard {
   image: string;
   backgroundColor: string;
   includes: string[];
+  slug: string;
 }
 
 export function ServicesSection() {
@@ -25,6 +26,7 @@ export function ServicesSection() {
         "Website design & development",
         "Business digital setup & tools",
       ],
+      slug: "product-brand-foundation",
     },
     
     {
@@ -39,6 +41,7 @@ export function ServicesSection() {
         "Brand storytelling & content systems",
         "Campaign assets for web and social platforms",
       ],
+      slug: "digital-presence-media",
     },
     {
       title: "Intelligent Systems & Software",
@@ -54,6 +57,7 @@ export function ServicesSection() {
         "Blockchain & stablecoin integration",
         "SEO, performance & infrastructure optimization",
       ],
+      slug: "intelligent-systems-software",
     }
   ];
 
@@ -124,7 +128,7 @@ export function ServicesSection() {
                     <div className="mt-auto pt-6 lg:pt-8">
                       <div className="w-full lg:w-auto lg:flex lg:justify-end lg:-translate-y-4">
                         <Button 
-                          href="#contact" 
+                          href={`/services/${service.slug}`}
                           variant="secondary"
                           className="w-full lg:w-auto"
                         >

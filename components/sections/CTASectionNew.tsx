@@ -3,8 +3,11 @@ import Link from "next/link";
 
 export function CTASectionNew() {
   return (
-    <section className="py-6 sm:py-12 lg:py-32 bg-[#D7E5F9] w-[95%] mx-auto rounded-xl mb-6">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="relative py-6 sm:py-12 lg:py-32 bg-[#D7E5F9] w-[95%] mx-auto rounded-xl mb-6 overflow-hidden">
+      <div className="absolute -bottom-[60%] left-[10%] -z-0 w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] lg:w-[1000px] lg:h-[400px]">
+      <Image src={'/shape4.svg'} alt="rand" fill className="object-contain opacity-[0.1] scale-200"/>
+     </div>
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12 items-center">
           {/* Left Column - Text Content (2/3 width) */}
           <div className="lg:col-span-2 space-y-6">
@@ -26,7 +29,7 @@ export function CTASectionNew() {
             {/* CTA Button */}
             <div className="pt-4">
               <Link
-                href="#contact"
+                href="/contact"
                 className="inline-flex items-center justify-center bg-gray-900 hover:bg-gray-800 text-white font-semibold uppercase tracking-wide rounded-xl px-8 py-4 text-sm transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
               >
                 GET STARTED

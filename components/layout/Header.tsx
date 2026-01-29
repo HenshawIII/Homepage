@@ -32,10 +32,10 @@ export function Header() {
               SERVICES
             </Link>
             <Link
-              href="#case-studies"
+              href="/portfolio"
               className="text-gray-700 hover:text-[#3038cf] transition-colors font-body"
             >
-              CASE STUDIES
+              PORTFOLIO
             </Link>
             <Link
               href="/about"
@@ -53,7 +53,7 @@ export function Header() {
           </div>
 
 <div className=" items-center space-x-4 hidden lg:flex">
-            <Button href="#contact" variant="primary">
+            <Button href="/contact" variant="primary">
               CONTACT
             </Button>
           </div>
@@ -93,11 +93,11 @@ export function Header() {
               SERVICES
             </Link>
             <Link
-              href="#case-studies"
+              href="/portfolio"
               className="block text-gray-700 hover:text-[#3038cf] transition-colors font-body"
               onClick={() => setIsMenuOpen(false)}
             >
-              CASE STUDIES
+              PORTFOLIO
             </Link>
             <Link
               href="/about"
@@ -113,7 +113,7 @@ export function Header() {
             >
               BLOG
             </Link>
-            <Button href="#contact" variant="primary" className="w-full">
+            <Button href="/contact" variant="primary" className="w-full">
               CONTACT
             </Button>
           </div>
