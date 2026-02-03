@@ -59,7 +59,7 @@ export default function AboutPage() {
       title: "Product & Brand Foundation",
       description:
         "We help businesses start right by building clear brands and solid digital foundations. From identity and product strategy to websites and early-stage digital tools, we ensure your business launches with clarity, structure, and direction.",
-      image: "/prod.png",
+      image: "/Foundation.png",
       backgroundColor: "bg-[#b5d1fa]/50",
       includes: [
         "Brand identity & digital branding",
@@ -72,7 +72,7 @@ export default function AboutPage() {
       title: "Digital Presence & Media",
       description:
         "We help businesses present themselves professionally on a global stage. Through strategic media, storytelling, and high-quality digital campaigns, we ensure your brand looks credible, confident, and competitive — across any platform.",
-      image: "/createve.svg",
+      image: "/Poduction.png",
       backgroundColor: "bg-[#eaf1fe]",
       includes: [
         "Media strategy & creative direction",
@@ -85,7 +85,7 @@ export default function AboutPage() {
       title: "Intelligent Systems & Software",
       description:
         "We design and build the systems that power modern businesses. From custom software and mobile applications to automation, integrations, and emerging technology, we create solutions that scale as your business grows.",
-      image: "/tech.avif",
+      image: "/Systems.png",
       backgroundColor: "bg-[#e3e4fa]",
       includes: [
         "End-to-end software & app development",
@@ -343,13 +343,13 @@ export default function AboutPage() {
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-normal mb-6 text-gray-900 font-heading leading-tight">
               WHY WE EXIST
             </h1>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center ">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center mb-12 lg:mb-0 ">
               <p className="text-lg sm:text-xl text-gray-700 font-body leading-relaxed text-left ">
                 Across Africa, talented entrepreneurs and growing businesses are building powerful ideas — yet many struggle to access the technology needed to scale. Complex systems, disconnected tools, and high costs often stand in the way of progress. Branding, software, automation, and media are treated as separate efforts, leading to inefficiency and slow growth.
               </p>
               <div className="relative w-full h-[300px] sm:h-[400px] lg:h-[500px] flex justify-center">
                 <Image
-                  src="/TA.png"
+                  src="/Artboard13.png"
                   alt="Globe illustration"
                   fill
                   className="object-contain"
@@ -482,16 +482,13 @@ export default function AboutPage() {
             <div className="relative w-full h-full min-h-[400px] lg:min-h-[600px]">
               <div 
                 className="relative w-full h-full overflow-hidden"
-                style={{
-                  clipPath: 'polygon(0% 15%, 0 0, 15% 0%, 85% 0%, 100% 0, 100% 15%, 100% 85%, 100% 85%, 100% 100%, 27% 100%, 27% 73%, 0 73%)',
-                  borderRadius: '2rem'
-                }}
+                
               >
                 <Image
-                  src="/story.png"
+                  src="/Artboard14.png"
                   alt="Team collaboration"
                   fill
-                  className="object-cover object-center"
+                  className="object-contain object-center"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>

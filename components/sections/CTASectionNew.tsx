@@ -4,7 +4,7 @@ import Link from "next/link";
 export function CTASectionNew() {
   return (
     <section className="relative py-6 sm:py-12 lg:py-32 bg-[#D7E5F9] w-[95%] mx-auto rounded-xl mb-6 overflow-hidden">
-      <div className="absolute -bottom-[60%] left-[10%] -z-0 w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] lg:w-[1000px] lg:h-[400px]">
+      <div className="absolute -bottom-[60%] left-[33%] -z-0 w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] lg:w-[1000px] lg:h-[400px]">
       <Image src={'/shape4.svg'} alt="rand" fill className="object-contain opacity-[0.1] scale-200"/>
      </div>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -41,10 +41,10 @@ export function CTASectionNew() {
           <div className="lg:col-span-1 relative w-full h-full min-h-[300px] lg:min-h-[400px]">
             <div className="relative w-full h-full rounded-2xl overflow-hidden">
               <Image
-                src="/ladies.png" // Replace with actual image path
+                src="/Artboard16.png" // Replace with actual image path
                 alt="Team collaboration"
                 fill
-                className="object-cover object-center"
+                className="object-contain object-center"
                 sizes="(max-width: 1024px) 100vw, 33vw"
               />
             </div>

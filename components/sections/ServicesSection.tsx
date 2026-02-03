@@ -18,7 +18,7 @@ export function ServicesSection() {
       title: "Product & Brand Foundation",
       description:
         "We help businesses start right by building clear brands and solid digital foundations. From identity and product strategy to websites and early-stage digital tools, we ensure your business launches with clarity, structure, and direction.",
-      image: "/prod.png", // Replace with actual image path
+      image: "/Foundation.png", // Replace with actual image path
       backgroundColor: "bg-[#b5d1fa]/50", // Light yellow background matching the design
       includes: [
         "Brand identity & digital branding",
@@ -33,7 +33,7 @@ export function ServicesSection() {
       title: "Digital Presence & Media",
       description:
         "We help businesses present themselves professionally on a global stage. Through strategic media, storytelling, and high-quality digital campaigns, we ensure your brand looks credible, confident, and competitive — across any platform.",
-      image: "/createve.svg", // Replace with actual image path
+      image: "/Poduction.png", // Replace with actual image path
       backgroundColor: "bg-[#eaf1fe]", // Light blue background
       includes: [
         "Media strategy & creative direction",
@@ -47,7 +47,7 @@ export function ServicesSection() {
       title: "Intelligent Systems & Software",
       description:
         "We design and build the systems that power modern businesses. From custom software and mobile applications to automation, integrations, and emerging technology, we create solutions that scale as your business grows.",
-      image: "/tech.avif", // Replace with actual image path
+      image: "/Systems.png", // Replace with actual image path
       backgroundColor: "bg-[#e3e4fa]", // Light purple background matching the design
       includes: [
         "End-to-end software & app development",

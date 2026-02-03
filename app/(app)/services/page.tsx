@@ -50,8 +50,8 @@ export default function ServicesPage() {
             <p className="text-xs sm:text-sm font-semibold mb-6 text-gray-600 uppercase tracking-wider font-body">
               OUR SERVICES
             </p>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-normal mb-6 text-gray-900 font-heading leading-tight">
-              Digital Solutions That Drive Growth
+            <h1 className="text-3xl sm:text-4xl max-w-2xl lg:text-5xl font-normal mb-2 text-gray-900 font-heading leading-tight">
+              Solutions That Drive Growth
             </h1>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
               <p className="text-lg sm:text-xl text-gray-700 font-body leading-relaxed text-left">
@@ -59,7 +59,7 @@ export default function ServicesPage() {
               </p>
               <div className="relative w-full h-[300px] sm:h-[400px] lg:h-[500px] flex justify-center">
                 <Image
-                  src="/TA.png"
+                  src="/Artboard15.png"
                   alt="Services illustration"
                   fill
                   className="object-contain"
