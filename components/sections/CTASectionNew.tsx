@@ -23,7 +23,7 @@ export function CTASectionNew() {
 
             {/* Sub-text */}
             <p className="text-base sm:text-lg text-gray-600 font-body leading-relaxed max-w-lg">
-              Partner with us to take your digital presence to the next level.
+            Partner with us to build intelligent digital systems that move your business forward.
             </p>
 
             {/* CTA Button */}

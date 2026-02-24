@@ -17,14 +17,14 @@ export function ServicesSection() {
     {
       title: "Product & Brand Foundation",
       description:
-        "We help businesses start right by building clear brands and solid digital foundations. From identity and product strategy to websites and early-stage digital tools, we ensure your business launches with clarity, structure, and direction.",
+        "We help businesses start right by building strong brand identities and solid digital foundations. Using data-driven insights and AI-assisted strategy, we ensure your business launches with clarity, structure, and direction.",
       image: "/Foundation.png", // Replace with actual image path
       backgroundColor: "bg-[#b5d1fa]/50", // Light yellow background matching the design
       includes: [
         "Brand identity & digital branding",
         "Product strategy & product management",
         "Website design & development",
-        "Business digital setup & tools",
+        "Business digital setup & early-stage tools",
       ],
       slug: "product-brand-foundation",
     },
@@ -32,7 +32,7 @@ export function ServicesSection() {
     {
       title: "Digital Presence & Media",
       description:
-        "We help businesses present themselves professionally on a global stage. Through strategic media, storytelling, and high-quality digital campaigns, we ensure your brand looks credible, confident, and competitive — across any platform.",
+        "We assist businesses present themselves professionally on a global stage. Through AI-informed media strategy, creative direction, and high-quality digital campaigns, we ensure your brand communicates with clarity, consistency, and impact across every platform.",
       image: "/Poduction.png", // Replace with actual image path
       backgroundColor: "bg-[#eaf1fe]", // Light blue background
       includes: [
@@ -46,7 +46,7 @@ export function ServicesSection() {
     {
       title: "Intelligent Systems & Software",
       description:
-        "We design and build the systems that power modern businesses. From custom software and mobile applications to automation, integrations, and emerging technology, we create solutions that scale as your business grows.",
+        "We design and build the intelligent systems behind modern businesses. From custom software and mobile applications to automation, integrations, and AI-driven workflows, we create solutions that improve efficiency, decision-making, and long-term scalability.",
       image: "/Systems.png", // Replace with actual image path
       backgroundColor: "bg-[#e3e4fa]", // Light purple background matching the design
       includes: [

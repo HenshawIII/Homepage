@@ -246,7 +246,7 @@ export default function ContactPage() {
                   Phone
                 </h3>
                 <p className="text-base text-gray-700 text-center font-body">
-                  +91 123 456789
+                  0816 971 8088
                 </p>
               </div>
 
@@ -274,7 +274,7 @@ export default function ContactPage() {
                   Email
                 </h3>
                 <p className="text-base text-gray-700 text-center font-body">
-                  Support@example.com
+                  info@hictechng.com
                 </p>
               </div>
             </div>

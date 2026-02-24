@@ -27,7 +27,7 @@ export function ExpertiseSection() {
 
             {/* Body Paragraph */}
             <p className="text-base sm:text-md font-medium text-gray-700 font-body leading-normal lg:my-12 mt-8 max-w-lg">
-              With over a decade of experience, we provide the complete digital infrastructure businesses need to start, run, and scale successfully.
+              With many years of experience, we provide the complete digital infrastructure businesses need to start, run, and scale successfully.
 
 From laying the right foundation, to building intelligent systems, to positioning your brand on a global stage , we design solutions that are practical, scalable, and future-ready.
 

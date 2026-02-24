@@ -11,6 +11,9 @@ const zenDots = Zen_Dots({
 export const metadata: Metadata = {
   title: "HIC Tech - Business Intelligence for Modern Enterprises",
   description: "HIC Tech is a business intelligence and digital enablement agency helping African businesses start strong, scale smart, and compete globally.",
+  icons: {
+    icon: "/Iconwhite.png",
+  },
 };
 
 export default function RootLayout({

@@ -33,7 +33,7 @@ export default function ServicesPage() {
     {
       question: "Can you work with existing tools or systems?",
       answer:
-        "Yes. We often improve, integrate, or build on existing platforms rather than starting from scratch.",
+        "Yes. We often enhance, integrate, or build on existing tools where possible.",
     }
   ];
 
@@ -85,7 +85,7 @@ export default function ServicesPage() {
               </h2>
               <div className="h-px bg-gray-300"></div>
               <p className="text-base sm:text-lg text-gray-700 font-body leading-relaxed">
-                If you're curious or need more info, feel free to reach out—we're here to help!
+                If you're curious or need more clarity, feel free to reach out—we're here to help!
               </p>
               <div className="pt-4">
                 <Button href="#contact" variant="primary" className="w-full sm:w-auto">

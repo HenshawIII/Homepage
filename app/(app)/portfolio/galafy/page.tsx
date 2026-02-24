@@ -52,7 +52,7 @@ export default function GalafyPage() {
                   Website
                 </p>
                 <p className="text-base sm:text-lg text-gray-900 font-body">
-                  www.galafy.com
+                  www.galafy.co
                 </p>
               </div>
             </div>

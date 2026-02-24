@@ -16,31 +16,31 @@ export default function PortfolioPage() {
     {
       title: "Grafiki",
       description: "A creative agency focused on African storytelling through design and digital experiences. We designed and developed a modern, responsive website that reflected Grafiki's creative direction and positioned the agency professionally online, while supporting customer service communications through automation.",
-      image: "/expert.png",
+      image: "/grafP.png",
       slug: "grafiki",
-      category: "Design Agency",
+      category: "Software Architecture",
     },
     {
       title: "AOM Industries",
       description: "A multi-industry company operating across petroleum haulage, real estate, and logistics. We built a corporate website that unified AOM's diverse business units under a single, coherent digital identity, implemented intelligent customer service systems, and optimized the platform for search visibility.",
-      image: "/expert.png",
+      image: "/aomPr.png",
       slug: "aom-industries",
-      category: "Multi-Industry Company",
+      category: "Business Automation",
     },
     {
       title: "Chainfren",
       description: "A Web3 company focused on driving blockchain adoption through accessible digital products and services. We developed a modern website and built a blockchain-powered streaming platform that supports decentralized content delivery, aligning with blockchain principles while remaining usable and scalable.",
-      image: "/expert.png",
+      image: "/chainPe.png",
       slug: "chainfren",
-      category: "Web3 & Blockchain Services",
+      category: "Software Development",
     },
     {
       title: "Galafy",
       description: "A mobile platform designed to digitize the cultural practice of spraying money at events — blending tradition with modern financial systems. We engineered an extensive backend infrastructure, developed a mobile application for users, and built a robust admin dashboard for managing operations and monitoring transactions.",
-      image: "/expert.png",
+      image: "/galaP.png",
       slug: "galafy",
       category: "Mobile Application",
-    },
+    }
   ];
 
   return (
@@ -94,11 +94,11 @@ export default function PortfolioPage() {
                         {item.category}
                       </span>
                     </div>
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-4 sm:gap-6 md:flex-row md:items-center md:justify-between md:gap-0">
                       <h2 className="text-2xl sm:text-3xl lg:text-4xl font-normal text-gray-900 font-heading leading-tight group-hover:text-[#3038cf] transition-colors">
                         {item.title}
                       </h2>
-                      <span className="text-base font-semibold text-gray-900 font-body uppercase tracking-wide group-hover:text-[#3038cf] transition-colors inline-flex items-center gap-2">
+                      <span className="text-base font-semibold text-gray-900 font-body uppercase tracking-wide group-hover:text-[#3038cf] transition-colors inline-flex items-center gap-2 shrink-0">
                         View Case Study
                         <svg 
                           className="w-5 h-5 group-hover:translate-x-1 transition-transform"

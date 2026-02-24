@@ -17,22 +17,22 @@ export function PortfolioSection() {
     {
       title: "E-COMMERCE PLATFORM",
       description: "Built a modern e-commerce website with integrated payment systems, inventory management, and customer dashboards that increased online sales by 45% and streamlined operations.",
-      image: "/expert.png",
+      image: "/ecom.png",
     },
     {
       title: "MOBILE APPLICATION",
       description: "Developed a cross-platform mobile app with financial services integration, real-time synchronization, offline capabilities, and seamless user experience that reached 50,000+ active users within the first year.",
-      image: "/expert.png",
+      image: "/mob.png",
     },
     {
       title: "WORKFLOW AUTOMATION",
       description: "Designed and implemented automation systems that integrated multiple business tools, reducing manual processing time by 60% and eliminating human error in critical workflows.",
-      image: "/expert.png",
+      image: "/auto.png",
     },
     {
       title: "PRODUCT STRATEGY",
       description: "Led product management initiatives from concept to launch, defining roadmaps, prioritizing features, and coordinating cross-functional teams to deliver successful digital products on time and within budget.",
-      image: "/expert.png",
+      image: "/prode.png",
     },
   ];
 
@@ -59,7 +59,7 @@ export function PortfolioSection() {
 
           {/* Main Description */}
           <p className="text-xl sm:text-2xl lg:text-3xl font-semibold text-gray-900 font-body leading-tight">
-            At HIC, we believe in delivering measurable results. Here are some success stories showcasing how our tailored consulting solutions have helped businesses overcome challenges, optimize operations, and achieve sustainable growth.
+            At HIC, we believe in delivering measurable results. Here are some success stories showcasing how our tailored solutions have helped businesses overcome challenges, optimize operations, and achieve sustainable growth.
           </p>
         </div>
 

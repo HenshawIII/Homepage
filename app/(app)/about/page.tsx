@@ -10,29 +10,9 @@ export default function AboutPage() {
   const logoIcons = [
     {
       icon: (
-        <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-          <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
-          <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
-        </svg>
+        <img src="/grafiki.svg" alt="Graffiki" width={20} height={20} />
       ),
       name: "Graffiki",
-    },
-    {
-      icon: (
-        <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-          <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
-        </svg>
-      ),
-      name: "FOSAN",
-    },
-    {
-      icon: (
-        <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-          <path d="M2 5a2 2 0 012-2h7a2 2 0 012 2v4a2 2 0 01-2 2H9l-3 3v-3H4a2 2 0 01-2-2V5z" />
-          <path d="M15 7v2a4 4 0 01-4 4H9.828l-1.766 1.767c.28.149.599.233.938.233h2l3 3v-3h2a2 2 0 002-2V9a2 2 0 00-2-2h-1z" />
-        </svg>
-      ),
-      name: "AOM",
     },
     {
       icon: (
@@ -40,14 +20,23 @@ export default function AboutPage() {
           <path fillRule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clipRule="evenodd" />
         </svg>
       ),
+      name: "FOSAN",
+    },
+    {
+      icon: (
+        <img src="/AOM.svg" alt="AOM" width={20} height={20} />
+      ),
+      name: "AOM",
+    },
+    {
+      icon: (
+        <img src="/chain.svg" alt="Chainfren" width={20} height={20} />
+      ),
       name: "Chainfren",
     },
     {
       icon: (
-        <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-          <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
-          <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
-        </svg>
+        <img src="/galafy.svg" alt="Galafy" width={20} height={20} />
       ),
       name: "Galafy",
     },
@@ -345,7 +334,7 @@ export default function AboutPage() {
             </h1>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center mb-12 lg:mb-0 ">
               <p className="text-lg sm:text-xl text-gray-700 font-body leading-relaxed text-left ">
-                Across Africa, talented entrepreneurs and growing businesses are building powerful ideas — yet many struggle to access the technology needed to scale. Complex systems, disconnected tools, and high costs often stand in the way of progress. Branding, software, automation, and media are treated as separate efforts, leading to inefficiency and slow growth.
+              Across Africa, ambitious founders and growing businesses are building powerful ideas — yet many struggle to access the intelligent technology needed to scale. Disconnected tools, complex systems, and high costs often slow progress. Branding, software, automation, and media are treated as separate efforts, leading to inefficiency and missed opportunities.
               </p>
               <div className="relative w-full h-[300px] sm:h-[400px] lg:h-[500px] flex justify-center">
                 <Image
@@ -369,9 +358,9 @@ export default function AboutPage() {
                 />
               </div>
               <p className="text-lg sm:text-xl text-gray-700 font-body leading-relaxed text-left lg:-translate-y-4 xl:translate-y-0 order-1 lg:order-2">
-                HIC Tech was founded to solve this.
+              HIC Tech was founded to solve this.
+We exist to bring AI-driven digital solutions closer to home — simplifying innovation and helping African businesses operate, scale, and compete at global standards. Our role is to bridge the gap between ideas and execution, between local ambition and intelligent systems built for the future.
 
-                We exist to bring advanced technology closer to home — simplifying innovation and making it accessible to businesses of all sizes. Our role is to bridge the gap between ideas and execution, between local ambition and global opportunity.
               </p>
             </div>
             {/* Statistics Cards */}
@@ -438,7 +427,7 @@ export default function AboutPage() {
                     Start with Clarity
                   </h3>
                   <p className="text-sm text-gray-600 font-body leading-relaxed">
-                    Build strong foundations with clear brand identity, product direction, and digital structure.
+                  Build strong foundations through clear brand identity, product strategy, and structured digital systems.
                   </p>
                 </div>
 
@@ -447,7 +436,7 @@ export default function AboutPage() {
                     Scale with Intelligence
                   </h3>
                   <p className="text-sm text-gray-600 font-body leading-relaxed">
-                    Design systems that power operations and grow seamlessly as your business expands.
+                  Design AI-powered systems that automate processes, optimize workflows, and support long-term growth.
                   </p>
                 </div>
 
@@ -456,7 +445,7 @@ export default function AboutPage() {
                     Engage with Purpose
                   </h3>
                   <p className="text-sm text-gray-600 font-body leading-relaxed">
-                    Build meaningful relationships through strategic media and authentic brand storytelling.
+                  Use data-informed storytelling and strategic media to build trust and meaningful brand connections.
                   </p>
                 </div>
 
@@ -465,7 +454,7 @@ export default function AboutPage() {
                     Compete Globally
                   </h3>
                   <p className="text-sm text-gray-600 font-body leading-relaxed">
-                    Position your brand on the global stage with tools and presence that match international standards.
+                  Equip your business with tools, systems, and presence that meet international standards.
                   </p>
                 </div>
               </div>

@@ -114,7 +114,7 @@ export function Footer() {
               
               {/* Row 2 */}
               <Link
-                href="#about"
+                href="/about"
                 className="text-sm sm:text-base font-body text-gray-300 hover:text-white transition-colors"
               >
                 ABOUT US

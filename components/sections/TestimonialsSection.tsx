@@ -22,23 +22,23 @@ export function TestimonialsSection() {
     {
       quote:
         "Their team seamlessly integrated with ours, listening closely and adapting to our unique challenges. Their ability to align with our goals and respond with tailored strategies made the entire process smooth and impactful, leading to real progress and lasting improvements.",
-      authorName: "Jean Harris",
-      authorTitle: "Ops, NovaCore",
+      authorName: "Amara Ralph",
+      authorTitle: "Ops, Grafiki",
       authorImage: "/testimonial-author-1.jpg",
-      personImage: "/testP.avif",
-      companyLogo: "/lgo.svg",
-      companyName: "NovaCore",
+      personImage: "/Amara.png",
+      companyLogo: "/grafiki.svg",
+      companyName: "Grafiki",
       backgroundColor: "bg-[#e3e4fa]", // Light blue - matching Product & Brand Foundation
     },
     {
       quote:
         "Working with HIC Tech transformed our digital infrastructure. Their expertise in intelligent systems and strategic planning helped us scale efficiently. The team's attention to detail and commitment to our success was evident throughout the entire project.",
-      authorName: "Michael Chen",
-      authorTitle: "CTO, TechFlow Solutions",
+      authorName: "Akinyemi Oluwafemi",
+      authorTitle: "CEO, AOM ",
       authorImage: "/testimonial-author-2.jpg",
-      personImage: "/testP.avif",
-      companyLogo: "/lgo.svg",
-      companyName: "TechFlow",
+      personImage: "/Femi.jpeg",
+      companyLogo: "/AOM.svg",
+      companyName: "AOM",
       backgroundColor: "bg-[#eaf1fe]", // Light yellow - matching Digital Presence & Media
     },
     // {
@@ -54,12 +54,12 @@ export function TestimonialsSection() {
     {
       quote:
         "Their automation solutions streamlined our operations dramatically. What used to take days now takes hours. The team's innovative approach to problem-solving and their deep understanding of our industry made all the difference.",
-      authorName: "David Martinez",
-      authorTitle: "Operations Director, InnovateCorp",
+      authorName: "Kola Martins",
+      authorTitle: "Operations Director, Kartal Solutions",
       authorImage: "/testimonial-author-4.jpg",
       personImage: "/testP.avif",
-      companyLogo: "/lgo.svg",
-      companyName: "InnovateCorp",
+      companyLogo: "/galafy.svg",
+      companyName: "Kartal",
       backgroundColor: "bg-[#b5d1fa]/50", // Light purple - matching Intelligent Systems & Software
     },
   ];
