@@ -23,10 +23,10 @@ export function HeroSection() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 justify-start items-start sm:items-center pt-2 sm:pt-4">
-              <Button href="#contact" variant="primary" className="w-full sm:w-auto text-base sm:text-base">
+              <Button href="/contact" variant="primary" className="w-full sm:w-auto text-base sm:text-base">
                 Book a Consultation
               </Button>
-              <Button href="#services" variant="secondary" className="w-full sm:w-auto text-base sm:text-base">
+              <Button href="/services" variant="secondary" className="w-full sm:w-auto text-base sm:text-base">
                 Explore Our Services
               </Button>
             </div>
