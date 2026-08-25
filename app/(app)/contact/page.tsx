@@ -154,7 +154,7 @@ export default function ContactPage() {
                 <div className="flex items-center justify-center gap-4">
                   {/* Instagram */}
                   <a
-                    href="https://instagram.com"
+                    href="https://www.instagram.com/hictech.ng/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-gray-100 transition-colors border border-gray-200"
@@ -171,7 +171,7 @@ export default function ContactPage() {
 
                   {/* Facebook */}
                   <a
-                    href="https://facebook.com"
+                    href="https://www.facebook.com/profile.php?id=61584136252229"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-gray-100 transition-colors border border-gray-200"
@@ -188,7 +188,7 @@ export default function ContactPage() {
 
                   {/* LinkedIn */}
                   <a
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/company/hic-tech"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-gray-100 transition-colors border border-gray-200"
@@ -205,7 +205,7 @@ export default function ContactPage() {
 
                   {/* X (Twitter) */}
                   <a
-                    href="https://x.com"
+                    href="https://x.com/hic_techng"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-gray-100 transition-colors border border-gray-200"

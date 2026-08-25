@@ -21,7 +21,7 @@ export function Footer() {
             <div className="flex items-center gap-4">
               {/* Instagram */}
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/hictech.ng/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-gray-200 transition-colors"
@@ -38,7 +38,7 @@ export function Footer() {
 
               {/* Facebook */}
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/profile.php?id=61584136252229"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-gray-200 transition-colors"
@@ -55,7 +55,7 @@ export function Footer() {
 
               {/* LinkedIn */}
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/company/hic-tech"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-gray-200 transition-colors"
@@ -72,7 +72,7 @@ export function Footer() {
 
               {/* X (Twitter) */}
               <a
-                href="https://x.com"
+                href="https://x.com/hic_techng"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:bg-gray-200 transition-colors"
