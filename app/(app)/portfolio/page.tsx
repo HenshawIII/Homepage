@@ -9,38 +9,63 @@ interface PortfolioItem {
   image: string;
   slug: string;
   category: string;
+  imageClassName?: string;
+  imageWrapperClassName?: string;
 }
 
 export default function PortfolioPage() {
   const portfolioItems: PortfolioItem[] = [
     {
-      title: "Grafiki",
-      description: "A creative agency focused on African storytelling through design and digital experiences. We designed and developed a modern, responsive website that reflected Grafiki's creative direction and positioned the agency professionally online, while supporting customer service communications through automation.",
-      image: "/grafP.png",
-      slug: "grafiki",
-      category: "Software Architecture",
+      title: "SIX IN ONE",
+      description: "A talent, image, and brand development group working across entertainment, publishing, and cultural business. We designed a full visual identity and built a compartmentalised website for each faction of the group, with SEO to support a strong search presence.",
+      image: "/6in12.svg",
+      slug: "sixinone",
+      category: "Brand Identity",
+      imageWrapperClassName: "bg-[#FF3300]",
+      imageClassName:
+        "object-contain scale-[0.72] group-hover:scale-[0.78] transition-transform duration-500",
+    },
+    {
+      title: "Galafy",
+      description: "A live fintech product that digitises event gifting through wallets, transfers, and real-time participation. We built the mobile app for hosts and guests, plus an admin portal for KYC, events, and transaction monitoring.",
+      image: "/gala.svg",
+      slug: "galafy",
+      category: "Mobile Application",
+    },
+    {
+      title: "Chainfren",
+      description: "A Web3 company focused on driving blockchain adoption through accessible digital products and services. We developed a modern website and built a blockchain-powered streaming platform that supports decentralized content delivery, aligning with blockchain principles while remaining usable and scalable.",
+      image: "/chainf.svg",
+      slug: "chainfren",
+      category: "Software Development",
+      imageWrapperClassName: "bg-[#FFffff]",
+      imageClassName:
+        "object-contain scale-[0.72] group-hover:scale-[0.78] transition-transform duration-500",
     },
     {
       title: "AOM Industries",
-      description: "A multi-industry company operating across petroleum haulage, real estate, and logistics. We built a corporate website that unified AOM's diverse business units under a single, coherent digital identity, implemented intelligent customer service systems, and optimized the platform for search visibility.",
+      description: "A multi-industry company operating across petroleum haulage, real estate, and logistics. We built a corporate website that unified AOM's diverse business units under a single, coherent digital identity, implemented intelligent customer service systems, and delivered SEO that continues to drive strong search visibility.",
       image: "/aomPr.png",
       slug: "aom-industries",
       category: "Business Automation",
     },
     {
-      title: "Chainfren",
-      description: "A Web3 company focused on driving blockchain adoption through accessible digital products and services. We developed a modern website and built a blockchain-powered streaming platform that supports decentralized content delivery, aligning with blockchain principles while remaining usable and scalable.",
-      image: "/chainPe.png",
-      slug: "chainfren",
-      category: "Software Development",
+      title: "Grafiki",
+      description: "A creative agency focused on African storytelling through design and digital experiences. We designed and developed a modern, responsive website that reflected Grafiki's creative direction, implemented SEO to strengthen search visibility, and supported customer service communications through automation.",
+      image: "/grafiks.svg",
+      slug: "grafiki",
+      category: "Software Architecture",
     },
     {
-      title: "Galafy",
-      description: "A mobile platform designed to digitize the cultural practice of spraying money at events — blending tradition with modern financial systems. We engineered an extensive backend infrastructure, developed a mobile application for users, and built a robust admin dashboard for managing operations and monitoring transactions.",
-      image: "/galaP.png",
-      slug: "galafy",
-      category: "Mobile Application",
-    }
+      title: "FoSAN",
+      description: "A Nigerian NGO advancing food safety education, advocacy, and safer practices across the food value chain. We built a professional website with SEO, automated communications, and technical support for their day-to-day operations.",
+      image: "/FOSAN.svg",
+      slug: "fosan",
+      category: "Website",
+      imageWrapperClassName: "bg-[#0B5C3E]",
+      imageClassName:
+        "object-cover object-center group-hover:scale-105 transition-transform duration-500",
+    },
   ];
 
   return (
@@ -77,12 +102,12 @@ export default function PortfolioPage() {
               >
                 <div className="bg-white rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300">
                   {/* Image Section - Full Width */}
-                  <div className="relative w-full h-[400px] sm:h-[500px] lg:h-[600px] overflow-hidden bg-gray-200">
+                  <div className={`relative w-full h-[400px] sm:h-[500px] lg:h-[600px] overflow-hidden ${item.imageWrapperClassName ?? "bg-gray-200"}`}>
                     <Image
                       src={item.image}
                       alt={item.title}
                       fill
-                      className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                      className={item.imageClassName ?? "object-cover object-center group-hover:scale-105 transition-transform duration-500"}
                       sizes="100vw"
                     />
                   </div>

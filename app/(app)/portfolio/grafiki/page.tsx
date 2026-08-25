@@ -82,7 +82,7 @@ export default function GrafikiPage() {
           </h2>
           <div className="max-w-4xl">
             <p className="text-lg sm:text-xl text-gray-700 font-body leading-relaxed">
-              We designed and developed a modern, responsive website that reflected Grafiki's creative direction and positioned the agency professionally online. Beyond the website, we supported customer service communications and management through automation — helping streamline enquiries, responses, and client interactions.
+              We designed and developed a modern, responsive website that reflected Grafiki's creative direction and positioned the agency professionally online. We implemented SEO so the site could compete in search as the agency grew. Beyond the website, we supported customer service communications and management through automation — helping streamline enquiries, responses, and client interactions.
             </p>
             <div className="mt-8 space-y-3">
               <p className="text-sm font-semibold text-gray-900 font-body uppercase tracking-wide">
@@ -92,6 +92,10 @@ export default function GrafikiPage() {
                 <li className="flex items-start">
                   <span className="text-[#216299] mr-2 mt-1">•</span>
                   <span className="text-base text-gray-700 font-body">Website</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#216299] mr-2 mt-1">•</span>
+                  <span className="text-base text-gray-700 font-body">SEO</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#216299] mr-2 mt-1">•</span>
@@ -115,7 +119,7 @@ export default function GrafikiPage() {
           </h2>
           <div className="max-w-4xl">
             <p className="text-lg sm:text-xl text-gray-700 font-body leading-relaxed">
-              Grafiki gained a strong digital presence supported by intelligent systems that improved communication efficiency and reduced manual workload, allowing the team to focus more on creative output.
+              Grafiki gained a strong digital presence — including search visibility driven by SEO — supported by intelligent systems that improved communication efficiency and reduced manual workload, allowing the team to focus more on creative output.
             </p>
           </div>
         </div>
