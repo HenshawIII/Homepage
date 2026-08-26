@@ -135,7 +135,7 @@ export default function SixInOnePage() {
             />
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 mb-10">
             <div className="space-y-3">
               <div className="relative w-full overflow-hidden rounded-2xl bg-white border border-gray-200 shadow-sm flex items-center justify-center p-8 sm:p-12 min-h-[280px]">
                 <Image
@@ -159,6 +159,88 @@ export default function SixInOnePage() {
                 />
               </div>
               <p className="text-sm text-gray-600 font-body">Brand mark</p>
+            </div>
+          </div>
+
+          <h3 className="text-xl sm:text-2xl font-normal text-gray-900 font-heading leading-tight mb-4">
+            Brand in Application
+          </h3>
+          <p className="text-base sm:text-lg text-gray-700 font-body leading-relaxed max-w-4xl mb-8">
+            The identity carried across outdoor, retail, event, and digital touchpoints — each built to feel distinct while staying unmistakably SIX IN ONE.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+            <div className="space-y-3">
+              <div className="relative w-full overflow-hidden rounded-2xl border border-gray-200 shadow-sm">
+                <Image
+                  src="/sixinone-billboard.jpg"
+                  alt="SIX IN ONE billboard mockup"
+                  width={1200}
+                  height={800}
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              <p className="text-sm text-gray-600 font-body">Billboard</p>
+            </div>
+            <div className="space-y-3">
+              <div className="relative w-full overflow-hidden rounded-2xl border border-gray-200 shadow-sm">
+                <Image
+                  src="/sixinone-signage.jpg"
+                  alt="SIX IN ONE storefront signage"
+                  width={1200}
+                  height={800}
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              <p className="text-sm text-gray-600 font-body">Storefront signage</p>
+            </div>
+            <div className="space-y-3">
+              <div className="relative w-full overflow-hidden rounded-2xl border border-gray-200 shadow-sm">
+                <Image
+                  src="/sixinone-shopping-bag.jpg"
+                  alt="SIX IN ONE shopping bag"
+                  width={1200}
+                  height={800}
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              <p className="text-sm text-gray-600 font-body">Retail bag</p>
+            </div>
+            <div className="space-y-3">
+              <div className="relative w-full overflow-hidden rounded-2xl border border-gray-200 shadow-sm">
+                <Image
+                  src="/sixinone-boxing.jpg"
+                  alt="SIX IN ONE event branding"
+                  width={1200}
+                  height={800}
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              <p className="text-sm text-gray-600 font-body">Event branding</p>
+            </div>
+            <div className="space-y-3">
+              <div className="relative w-full overflow-hidden rounded-2xl border border-gray-200 shadow-sm">
+                <Image
+                  src="/sixinone-instagram.jpg"
+                  alt="SIX IN ONE Entertainment Instagram profile"
+                  width={1200}
+                  height={800}
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              <p className="text-sm text-gray-600 font-body">Entertainment Instagram</p>
+            </div>
+            <div className="space-y-3">
+              <div className="relative w-full overflow-hidden rounded-2xl border border-gray-200 shadow-sm">
+                <Image
+                  src="/sixinone-typography.png"
+                  alt="SIX IN ONE typography system"
+                  width={1200}
+                  height={800}
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              <p className="text-sm text-gray-600 font-body">Typography</p>
             </div>
           </div>
         </div>

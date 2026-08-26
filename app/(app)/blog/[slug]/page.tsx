@@ -22,8 +22,10 @@ interface Post {
   body?: any
 }
 
+export const revalidate = 60
+
 export async function generateStaticParams() {
-  const slugs = await client.fetch(postSlugsQuery)
+  const slugs = await client.fetch(postSlugsQuery, {}, { next: { revalidate: 60 } })
   return slugs.map((item: { slug: string }) => ({
     slug: item.slug,
   }))
@@ -35,7 +37,7 @@ export default async function BlogPostPage({
   params: Promise<{ slug: string }>
 }) {
   const { slug } = await params
-  const post: Post = await client.fetch(postQuery, { slug })
+  const post: Post = await client.fetch(postQuery, { slug }, { next: { revalidate: 60 } })
 
   if (!post) {
     notFound()
